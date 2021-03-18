@@ -13,6 +13,7 @@ namespace LineComparison
             double lengthOfLineTwo = lineTwo.CalculateLength();
             Console.WriteLine("Length of two lines are = " + lengthOfLineOne +"  " +lengthOfLineTwo);
             Console.WriteLine(lengthOfLineOne.CompareTo(lengthOfLineTwo));
+            Console.WriteLine(lengthOfLineOne.Equals(lengthOfLineTwo));
         }
     }
 }
