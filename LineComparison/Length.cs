@@ -6,6 +6,7 @@ namespace LineComparison
 {
     class Length
     {
+        //initialising the co-ordinates
         int startPointOne, startPointTwo, EndPointOne, EndPointTwo;
         public Length(int startPointOne, int startPointTwo, int EndPointOne, int EndPointTwo)
         {
